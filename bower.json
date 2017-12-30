@@ -1,20 +1,22 @@
 {
-  "name": "Knockoutjs-GoogleMaps",
-  "version": "0.0.0",
-  "authors": [
-    "Javier Sanchez <reivaj0705@gmail.com>"
+	"name": "dbs-page",
+	"version": "0.0.0",
+	"authors": [
+    "Rafael Hochreuter <rafoe@hotmail.de>"
   ],
-  "description": "Application using KockoutJS library and Google maps API tho show data from a neigborhood",
-  "license": "MIT",
-  "ignore": [
+	"description": "Homepage of the DBS Company",
+	"license": "MIT",
+	"ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
   ],
-  "dependencies": {
-    "bootstrap": "~4.0.0-alpha.6",
-    "knockout": "~3.3.0"
-  }
+	"dependencies": {
+		"bootstrap": "~4.0.0-alpha.6",
+		"simple-line-icons": "2.2.4",
+		"knockout": "~3.3.0",
+		"jquery": "~3.2.1"
+	}
 }
