@@ -1,0 +1,48 @@
+/* === Allgemein ===*/
+
+/* Schriften */
+body {
+	position: relative;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-alt {
+	color: white;
+}
+
+
+body,
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-alt {
+	font-family: 'Acme', serif;
+}
+
+.fa {
+	margin-right: 5px;
+}
+
+/* === Navigation ===*/
+
+/* === Home Back ===*/
+
+.home-bg {
+	background: url('../img/home_back.png') 50% 0 fixed no-repeat;
+	height: 100vh;
+	background-size: cover;
+}
