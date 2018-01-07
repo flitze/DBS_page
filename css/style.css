@@ -14,7 +14,7 @@ h4,
 h5,
 h6,
 .font-alt {
-	color: white;
+	
 }
 
 
@@ -37,12 +37,49 @@ h6,
 	margin-right: 5px;
 }
 
+/* Section */
+
+section {
+	padding: 140px 0;
+}
+
+/* Hilfsklassen */
+.d-relative {
+	position: relative;
+}
+
+
 /* === Navigation ===*/
 
-/* === Home Back ===*/
+/* === Home Background ===*/
 
 .home-bg {
 	background: url('../img/home_back.png') 50% 0 fixed no-repeat;
 	height: 100vh;
 	background-size: cover;
+}
+
+.centered-row {
+  margin-top: 30%
+  
+	
+}
+
+/* === Skills ===*/
+
+/* Card Text */
+
+.card-title,
+.card-text {
+	color: white;
+}
+
+.card-title .fa {
+	margin-right: 10px;
+}
+
+/* === Kontakt ===*/
+
+.kontakt-bg {
+ 	background-color: rgb(72, 119, 226);
 }
