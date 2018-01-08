@@ -93,7 +93,7 @@
 		<div class="container">
 			<div class="row mb-4">
 				<div class="col-md-12">
-					<h1 class="text-primary text-center mb-4">Unsere Skills</h1>
+					<h1 class="cr-blue text-center mb-4">Unsere Skills</h1>
 				</div>
 				<!-- col -->
 			</div>
@@ -144,10 +144,19 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 mb-4">
 					<div class="input-group input-group-lg">
-						<textarea name="nachricht" rows="6" class="form-control"></textarea>
+						<textarea name="nachricht" rows="6" class="form-control" placeholder="Ihre Nachricht"></textarea>
 					</div>
+				</div>
+				<div class="col-md-6 pr-md-5 mb-4">
+					<div class="input-group input-group-lg mt-1 mb-4"><span class="input-group-addon bg-white"><i class="fa fa-user"></i></span><input type="text" name="name" class="form-control" placeholder="Vollständiger Name*">
+					</div>
+					<div class=" input-group input-group-lg mb-4">
+						<span class="input-group-addon bg-white"><i class="fa fa-envelope-o"></i></span>
+						<input type="email" name="email" class="form-control" placeholder="E-Mail Adresse*">
+					</div>
+					<button type="submit" class="btn btn-outline-dark btn-lg btn-block"><i class="fa fa-send"></i>Senden</button>
 				</div>
 			</div>
 		</div>
